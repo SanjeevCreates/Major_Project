@@ -2,7 +2,7 @@
 
 This project aims to classify human activities based on sensor data collected from wearable devices. The solution integrates feature selection using the Wolf Optimization Algorithm, a Random Forest classifier, and a deep neural network for robust performance. A user-friendly Gradio interface is included for real-time predictions.
 
-## 📁 Project Structure
+## Project Structure
 
 human-activity-recognition/
 ├── data/
@@ -21,7 +21,7 @@ human-activity-recognition/
 └── README.md
 
 
-## 🔍 Features
+## Features
 
 - **Feature Selection:** Wolf Optimization Algorithm (WOA)
 - **Machine Learning:** Random Forest for preliminary accuracy evaluation
@@ -33,7 +33,8 @@ human-activity-recognition/
 ## Dataset
 The dataset used in this project is based on the UCI Human Activity Recognition dataset, which includes sensor signals collected from smartphones worn by volunteers performing different activities.
 
-🛠 Requirements
+## Requirements
+
 Python 3.8+
 
 TensorFlow

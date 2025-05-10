@@ -4,7 +4,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import joblib
-from feature_selection import wolf_optimizer
+from src.feature_selection import wolf_optimizer
+
 
 train_df = pd.read_csv('data/train.csv')
 test_df = pd.read_csv('data/test.csv')
